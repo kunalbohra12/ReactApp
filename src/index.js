@@ -5,13 +5,16 @@ import App from './App';
 import Users from './Users';
 import Homepage from './Compnents/HomePage';
 import reportWebVitals from './reportWebVitals';
+import HeaderComponent from './Compnents/HeaderUI/HeaderUI';
+import ContactUs from './Compnents/ContactUs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Homepage /> */}
-    <Users/>
-  </React.StrictMode>
+    <App/>
+    
+      </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

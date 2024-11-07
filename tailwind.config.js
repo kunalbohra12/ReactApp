@@ -5,10 +5,19 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage:{
-          'section-image': "url('./assets/Illustration.png')", // Add your image path here
+      colors: {
+        'mainColor': '#F7F7F7',
+        'orangeColor': '#FE8551',
+        'darkColor': '#16193C',
+        'blackColo1r': '#555555'
+
       },
-      
+      backgroundImage: {
+        'section-image': "url('./assets/Illustration.png')", // Add your image path here
+        'bg-image': "url('./assets/bgImage.png')", // Add your image path here
+
+      },
+
       fontSize: {
         custom_h1: [
           "76px",
@@ -219,7 +228,7 @@ module.exports = {
       },
     },
   },
-  
+
 
 
 

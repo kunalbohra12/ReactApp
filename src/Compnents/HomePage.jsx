@@ -67,35 +67,34 @@ export default function HomePage() {
                 </section>
                 {/* Middle Section */}
                 <section className='bg-white'>
-                    <div>
-                        
-                    </div>
-                    <p className='font-bold text-[25px] text-black text-center pt-10'>Features</p>
-                    <div className='grid grid-cols-12 gap-3 pt-5'>
-                        <div className='col-span-6'>
-                          <img src={images.FeaturesIcon} alt="" />
-                        </div>
-                        <div className='grid grid-cols-2 gap-5 col-span-4'>
-                           <div className='flex flex-col'>
-                                <img src={images.extensionIcon} className='h-4 w-4' alt="" />
-                                <p className=' mt-3 font-bold'>Manage leads and deals </p>
-                                <p className='mt-3 font-normal'>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata.</p>
-                           </div>
-                           <div className='flex flex-col'>
-                                <img src={images.extensionIcon} className='h-4 w-4' alt="" />
-                                <p className=' mt-3 font-bold'>Manage leads and deals </p>
-                                <p className='mt-3 font-normal'>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata.</p>
-                           </div>
-                           <div className='flex flex-col'>
-                                <img src={images.extensionIcon} className='h-4 w-4' alt="" />
-                                <p className=' mt-3 font-bold'>Manage leads and deals </p>
-                                <p className='mt-3 font-normal'>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata.</p>
-                           </div>
-                           <div className='flex flex-col'>
-                                <img src={images.extensionIcon} className='h-4 w-4' alt="" />
-                                <p className=' mt-3 font-bold'>Manage leads and deals </p>
-                                <p className='mt-3 font-normal'>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata.</p>
-                           </div>
+                    <div className='flex flex-col'>
+                        <p className='font-bold text-[25px] text-black text-center pt-10'>Features</p>
+                        <div className='grid grid-cols-12 gap-3 pt-5'>
+                            <div className='col-span-6'>
+                                <img src={images.FeaturesIcon} alt="" />
+                            </div>
+                            <div className='grid grid-cols-2 gap-5 col-span-4'>
+                                <div className='flex flex-col'>
+                                    <img src={images.extensionIcon} className='h-4 w-4' alt="" />
+                                    <p className=' mt-3 font-bold'>Manage leads and deals </p>
+                                    <p className='mt-3 font-normal'>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata.</p>
+                                </div>
+                                <div className='flex flex-col'>
+                                    <img src={images.extensionIcon} className='h-4 w-4' alt="" />
+                                    <p className=' mt-3 font-bold'>Manage leads and deals </p>
+                                    <p className='mt-3 font-normal'>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata.</p>
+                                </div>
+                                <div className='flex flex-col'>
+                                    <img src={images.extensionIcon} className='h-4 w-4' alt="" />
+                                    <p className=' mt-3 font-bold'>Manage leads and deals </p>
+                                    <p className='mt-3 font-normal'>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata.</p>
+                                </div>
+                                <div className='flex flex-col'>
+                                    <img src={images.extensionIcon} className='h-4 w-4' alt="" />
+                                    <p className=' mt-3 font-bold'>Manage leads and deals </p>
+                                    <p className='mt-3 font-normal'>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

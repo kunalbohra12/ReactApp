@@ -21,5 +21,17 @@ export const images = {
  extensionIcon: require('../../assets/extension.png'),
 PhoneIcon: require('../../assets/phone.png'),
 StreetIcon: require('../../assets/Street.png'),
+bgImage: require('../../assets/bgImage.png'),
+flightLogo: require('../../assets/Flightweblogo.png'),
+HotelsIcon: require('../../assets/building.png'),
+PlaneIcon: require('../../assets/flight.png'),
+personIcon: require('../../assets/person.png'),
+user: require('../../assets/UserIcon.png'),
+CloudsIcon: require('../../assets/Clouds.webp'),
+emailIcon: require('../../assets/Email.png'),
+CallIcon: require('../../assets/Call.png'),
+
+
+
 
   };
