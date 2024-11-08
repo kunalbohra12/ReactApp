@@ -9,7 +9,9 @@ module.exports = {
         'mainColor': '#F7F7F7',
         'orangeColor': '#FE8551',
         'darkColor': '#16193C',
-        'blackColo1r': '#555555'
+        'blackColo1r': '#555555',
+        'greyColor': '#808080',
+
 
       },
       backgroundImage: {

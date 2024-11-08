@@ -5,6 +5,7 @@ import Hotels from './Compnents/Hotels';
 import Contact from './Compnents/ContactUs';
 import HeaderComponent from './Compnents/HeaderUI/HeaderUI';
 import Fonts from './HelperFiles/Fonts/Fonts.css';
+import FooterComponent from './Compnents/Footer/Footer';
 
 function App() {
   return (
@@ -21,8 +22,11 @@ function App() {
           <Route path="/Hotels" element={<Hotels />} />
           <Route path="/Flights" element={<Flights />} />
         </Routes>
-    
+          {/* Footer displayed on all pages */}
+          <FooterComponent />
+
     </Router>
+
   );
 }
 
