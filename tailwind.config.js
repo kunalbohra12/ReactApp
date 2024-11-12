@@ -11,15 +11,21 @@ module.exports = {
         'darkColor': '#16193C',
         'blackColo1r': '#555555',
         'greyColor': '#808080',
-
-
+        'Customborder' : '#C2C2C2'
+         
       },
       backgroundImage: {
         'section-image': "url('./assets/Illustration.png')", // Add your image path here
         'bg-image': "url('./assets/bgImage.png')", // Add your image path here
+        'container': "url('./assets/Container.png')",
+        'background': "url('./assets/background.png')",
+        'loginBackground': "url('./assets/Loginbg.png')",
 
       },
-
+      backdropBlur: {
+        'custom': '30px',
+      },
+  
       fontSize: {
         custom_h1: [
           "76px",

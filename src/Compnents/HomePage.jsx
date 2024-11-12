@@ -1,6 +1,5 @@
 import React from 'react';
 import { useEffect } from 'react';
-import HeaderComponent from './Header/Header.jsx';
 import { images } from '../HelperFiles/Images/Images.js';
 import playIcon from '../assets/Polygon.png';
 import bg from '../assets/Sectionbg.png';
@@ -11,7 +10,6 @@ export default function HomePage() {
     return (
         <>
             <header className='bg-[#FEF9F6]'>
-                <HeaderComponent />
             </header>
             <main>
                 {/* Top Section */}

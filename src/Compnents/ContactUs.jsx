@@ -2,6 +2,7 @@ import React from 'react';
 import HeaderComponent from './HeaderUI/HeaderUI';
 import Images, { images } from '../HelperFiles/Images/Images.js';
 import { useForm } from 'react-hook-form';
+import HeroBannerSection from './HeroBanner.jsx';
 function ContactUs() {
 
     const {
@@ -18,6 +19,7 @@ function ContactUs() {
 
     return (
         <>
+       <HeroBannerSection Title={"Contact Us"} />
             <section>
                 <div className='flex flex-col pt-10 px-8 sm:px-8 md:px-12 lg:px-20 bg-mainColor'>
                     <div className='flex gap-3 items-center'>
@@ -59,8 +61,8 @@ function ContactUs() {
             </section>
 
             <section>
-                <div className='flex  bg-mainColor pt-10 px-8 sm:px-8 md:px-12 lg:px-20 justify-between'>
-                    <div className=' rounded bg-white flex flex-col sm:flex-col md:flex-row lg:flex-row  gap-20 w-full '>
+                <div className='flex  bg-mainColor pt-10 pb-10 px-8 sm:px-8 md:px-12 lg:px-20 justify-between'>
+                    <div className='pb-10 rounded bg-white flex flex-col sm:flex-col md:flex-row lg:flex-row  gap-20 w-full '>
                         {/* Form */}
                         <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col pt-5 px-2 rounded w-full sm:w-full md:w-1/2 lg:w-1/2 '>
                             <div className=' '>

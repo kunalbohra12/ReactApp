@@ -1,7 +1,16 @@
 import React from 'react';
-
+import HeroBannerSection from './HeroBanner';
 function Flights() {
-  return <h2>Flights Page</h2>;
+  return (
+    <>
+    <HeroBannerSection Title={"Flights"}/>
+      <section>
+        <div>
+          
+        </div>
+      </section>
+    </>
+  );
 }
 
 export default Flights;

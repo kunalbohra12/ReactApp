@@ -1,5 +1,7 @@
 // images.js
 export const images = {
+  bgImage: require('../../assets/bgImage.png'),
+  backgroundImg: require('../../assets/background.png'),
   logoIcon: require('../../assets/Logo.png'),
   NotificationIcon: require('../../assets/Notification.png'),
   UserIcon: require('../../assets/User.png'),
@@ -21,14 +23,17 @@ export const images = {
  extensionIcon: require('../../assets/extension.png'),
 PhoneIcon: require('../../assets/phone.png'),
 StreetIcon: require('../../assets/Street.png'),
+aboutIcon: require('../../assets/about.png'),
 bgImage: require('../../assets/bgImage.png'),
 flightLogo: require('../../assets/Flightweblogo.png'),
 HotelsIcon: require('../../assets/building.png'),
+HotelImage: require('../../assets/HotelImage.png'),
 PlaneIcon: require('../../assets/flight.png'),
 personIcon: require('../../assets/person.png'),
 user: require('../../assets/UserIcon.png'),
 designIcon: require('../../assets/design.png'),
 CloudsIcon: require('../../assets/Clouds.webp'),
+CloudsImage: require('../../assets/HeroBanner.webp'),
 CallIcon: require('../../assets/Call.png'),
 emailIcon: require('../../assets/Email.png'),
 MediaIcon: require('../../assets/Media.png'),
@@ -40,7 +45,12 @@ phone: require('../../assets/phoneIcon.png'),
 messageIcon: require('../../assets/mail.png'),
 pinIcon: require('../../assets/pin.png'),
 footerlgIcon: require('../../assets/footerlg.png'),
-
+experienceIcon: require('../../assets/experience.png'),
+agentIcon: require('../../assets/agent.png'),
+TravelImage: require('../../assets/Travel.png'),
+barsIcon: require('../../assets/bars.png'),
+loginBg: require('../../assets/Loginbg.png'),
+Google: require('../../assets/GoogleIcon.png')
 
 
 
