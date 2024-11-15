@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Images, { images } from '../HelperFiles/Images/Images';
-import HeroBannerSection from './HeroBanner';
+import Images, { images } from '../../HelperFiles/Images/Images';
+import HeroBannerSection from '../HeroBanner';
 function AboutUSComponent() {
     return (
         <>

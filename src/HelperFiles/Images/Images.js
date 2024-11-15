@@ -50,7 +50,8 @@ agentIcon: require('../../assets/agent.png'),
 TravelImage: require('../../assets/Travel.png'),
 barsIcon: require('../../assets/bars.png'),
 loginBg: require('../../assets/Loginbg.png'),
-Google: require('../../assets/GoogleIcon.png')
+Google: require('../../assets/GoogleIcon.png'),
+Cloudbg: require('../../assets/Cloud.png')
 
 
 

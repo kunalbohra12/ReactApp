@@ -1,6 +1,6 @@
 import React from 'react';
-import HeroBannerSection from './HeroBanner';
-import Images, { images } from '../HelperFiles/Images/Images.js';
+import HeroBannerSection from '../HeroBanner';
+import Images, { images } from '../../HelperFiles/Images/Images.js';
 function Hotels() {
   return (
     <>

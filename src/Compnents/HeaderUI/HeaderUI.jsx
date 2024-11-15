@@ -24,7 +24,7 @@ export default function HeaderComponent({ title }) {
   const navigate = useNavigate();
 
   const handleLoginClick = () => {
-    navigate("/Login");
+    navigate("/");
   };
   return (
     <>

@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroBannerSection from './HeroBanner';
+import HeroBannerSection from '../HeroBanner';
 function Flights() {
   return (
     <>

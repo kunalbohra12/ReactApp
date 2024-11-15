@@ -1,8 +1,7 @@
 import React from 'react';
-import HeaderComponent from './HeaderUI/HeaderUI';
-import Images, { images } from '../HelperFiles/Images/Images.js';
+import Images, { images } from '../../HelperFiles/Images/Images';
 import { useForm } from 'react-hook-form';
-import HeroBannerSection from './HeroBanner.jsx';
+import HeroBannerSection from '../HeroBanner';
 function ContactUs() {
 
     const {
@@ -17,6 +16,7 @@ function ContactUs() {
         console.log('Form Submitted:', data);
       };
 
+      
     return (
         <>
        <HeroBannerSection Title={"Contact Us"} />

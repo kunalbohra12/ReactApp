@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { images } from '../HelperFiles/Images/Images.js';
+import { images } from '../../HelperFiles/Images/Images.js';
 import playIcon from '../assets/Polygon.png';
 import bg from '../assets/Sectionbg.png';
 export default function HomePage() {
